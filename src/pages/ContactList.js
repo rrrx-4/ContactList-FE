@@ -86,6 +86,7 @@ const ContactList = () => {
 
         searchContact(search);
 
+        setSearch("");
     }
 
 

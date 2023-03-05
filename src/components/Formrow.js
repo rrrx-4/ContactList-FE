@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-const Formrow = ({ name, type, handleChange, value, labelText }) => {
+const Formrow = ({ name, type, handleChange, value, }) => {
 
     // const [value, setValue] = useState("");
 
