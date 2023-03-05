@@ -4,7 +4,8 @@ import { getUserFromLS } from './userStorage';
 
 const API = axios.create({
 
-    baseURL: "http://localhost:3000"
+    // baseURL: "http://localhost:3000"
+    baseURL: "https://contactlist-5gmp.onrender.com"
 })
 
 API.interceptors.request.use((req) => {
